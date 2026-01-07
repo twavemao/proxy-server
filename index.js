@@ -9,7 +9,6 @@
 
 const express = require('express');
 const { createProxyMiddleware } = require('http-proxy-middleware');
-const axios = require('axios');
 const config = require('./config');
 const { getMockResponse } = require('./mockData');
 
